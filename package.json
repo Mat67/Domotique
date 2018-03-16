@@ -1,0 +1,41 @@
+{
+  "name": "wodgenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mat67/WODGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mat67/WODGenerator/issues"
+  },
+  "homepage": "https://github.com/Mat67/WODGenerator#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "standard": "*"
+  },
+  "standard": {
+    "ignore": [
+      "*tmp*",
+      "*test*"
+    ]
+  },
+  "dependencies": {
+    "app-module-path": "^2.1.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "moment": "^2.19.1",
+    "mongodb": "^2.2.26",
+    "promise": "^8.0.1",
+    "random-js": "^1.0.8",
+    "underscore": "^1.8.3"
+  }
+}
